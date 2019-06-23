@@ -18,6 +18,7 @@ namespace task2UP
             else { writer.WriteLine(counter + " " + minimum); }
             writer.Close();
             reader.Close();
+
         }
         public static void Recurs(long i, long a, long d, long s)
         {
